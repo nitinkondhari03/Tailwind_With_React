@@ -22,7 +22,7 @@ const Body = () => {
         </form>
         <div className='flex gap-2'>
           <img src={Checkmark} alt="check" />
-          <p className="font-lato text-gray-400">No spam,ever Unsubscribe anytime</p>
+          <p className="font-lato text-gray-400">No spam,ever Unsubscribe anytimes</p>
         </div>
       </div>
     </div>
