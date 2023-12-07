@@ -1,10 +1,11 @@
 import React from 'react'
 import {FaBars} from "react-icons/fa"
+import Logo from "../assets/Logo.svg"
 const Header = () => {
   return (
     <div className='flex justify-between'>
       <div className='flex items-center justify-center gap-2'>
-        <img src="../../public/assets/Logo.svg" alt="logo" />
+        <img src={Logo} alt="logo" />
         <button className="bg-gradient-to-r from-orange-400 to-red-400 text-xs text-white px-2.5 py-1.5 rounded-2xl">Hoster Is Hiring</button>
       </div>
       <ul className="hidden lg:flex justify-between items-center font-lato text-gray-400 gap-6">

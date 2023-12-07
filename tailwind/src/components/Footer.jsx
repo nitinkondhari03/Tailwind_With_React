@@ -1,5 +1,5 @@
 import React from 'react'
-
+import HelpAvatar from "../assets/Help-Avatar.svg"
 const Footer = () => {
   return (
     <div className="flex flex-col gap-12 md:flex-row md:justify-between">
@@ -15,7 +15,7 @@ const Footer = () => {
         </li>
       </ul>
       <div className="flex gap-2">
-        <img src="../../public/assets/Help-Avatar.svg" alt="Avatar" />
+        <img src={HelpAvatar} alt="Avatar" />
         <div>
           <p className="font-playfair font-thin">Have any Questions?</p>
           <a href="#" className="font-lato font-medium"> Talk to a specialist</a>
